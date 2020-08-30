@@ -3,21 +3,25 @@ import java.util.*;
 public class Warehouse {
 
 	String name;
-	Map<String, Integer> produce;
+	Map<String, Integer> inventory;
 
-	public Warehouse(String name, Map<String, Integer> produce){
+	public Warehouse(String name, Map<String, Integer> inventory){
 		this.name = name;
-		this.produce = produce;
+		this.inventory = inventory;
 	}
 
-	public Warehouse(Map<String, Integer> produce){
+	public Warehouse(String name){
+		this.name = name;
+		this.inventory = new HashMap<String, Integer>();
+	}
+
+	public Warehouse(Map<String, Integer> inventory){
 		this.name = "";
-		this.produce = produce;
+		this.inventory = inventory;
 	}
-
 
 	public void clearWarehouse(){
-		this.produce.clear();
+		this.inventory.clear();
 	}
 
 }
