@@ -12,7 +12,7 @@ javac InventoryTests.java
 
 Run tests with the follow command - you should set the testing output in the stdout terminal:
 
-java InventoryTests
+java -ea InventoryTests
     
 
 ### Problem
