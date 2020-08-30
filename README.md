@@ -1,3 +1,3 @@
 # recruiting-exercises
 
-Instructions in the invetory-allocator folder!
+Instructions in the Readme in the inventory-allocator folder!
