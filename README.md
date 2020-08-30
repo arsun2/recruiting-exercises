@@ -1,3 +1,3 @@
 # recruiting-exercises
 
-Instructions in the Readme in the inventory-allocator folder!
+Instructions on how to run locally in the Readme in the inventory-allocator folder.
