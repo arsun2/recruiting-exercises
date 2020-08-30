@@ -1,4 +1,19 @@
+### How to run locally
 
+Clone this repository locally & make sure Java 7/7+ is installed on your local computer.
+In command line, cd into the invetory-allocatory/src folder
+Run the following to setup environment:
+
+javac Warehouse.java
+
+javac InventoryAllocator.java
+
+javac InventoryTests.java
+
+Run tests with the follow command - you should set the testing output in the stdout terminal:
+
+java -ea InventoryTests
+    
 
 ### Problem
 
